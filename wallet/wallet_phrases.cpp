@@ -23,8 +23,8 @@ phrase lng_wallet_ok = "OK";
 
 phrase lng_wallet_copy_address = "Copy Wallet Address";
 
-phrase lng_wallet_intro_title = "Gram Wallet";
-phrase lng_wallet_intro_description = "Gram wallet allows you to make fast and\nsecure blockchain-based payments\nwithout intermediaries.";
+phrase lng_wallet_intro_title = "TON Wallet";
+phrase lng_wallet_intro_description = "TON wallet allows you to make fast and\nsecure blockchain-based payments\nwithout intermediaries.";
 phrase lng_wallet_intro_create = "Create My Wallet";
 phrase lng_wallet_intro_import = "Import existing wallet";
 
@@ -40,7 +40,7 @@ phrase lng_wallet_too_bad_description = "Without the secret words, you can't\nre
 phrase lng_wallet_too_bad_enter_words = "Enter words";
 
 phrase lng_wallet_created_title = "Congratulations";
-phrase lng_wallet_created_description = "Your Gram wallet has just been created.\nOnly you control it.\n\nTo be able to always have access to it,\nplease set up a secure password and write\ndown secret words.";
+phrase lng_wallet_created_description = "Your TON wallet has just been created.\nOnly you control it.\n\nTo be able to always have access to it,\nplease set up a secure password and write\ndown secret words.";
 
 phrase lng_wallet_words_title = "24 secret words";
 phrase lng_wallet_words_description = "Write down these 24 words in the correct\norder and store them in a secret place.\n\nUse these secret words to restore access to\nyour wallet if you lose your password or\naccess to this device.";
@@ -78,7 +78,7 @@ phrase lng_wallet_refreshed_just_now = "updated just now";
 phrase lng_wallet_cover_balance = "Your balance";
 phrase lng_wallet_cover_balance_test = "Your test balance";
 phrase lng_wallet_cover_locked = "locked";
-phrase lng_wallet_cover_receive_full = "Receive Grams";
+phrase lng_wallet_cover_receive_full = "Receive TON coins";
 phrase lng_wallet_cover_receive = "Receive";
 phrase lng_wallet_cover_send = "Send";
 
@@ -105,12 +105,12 @@ phrase lng_wallet_view_sender = "Sender";
 phrase lng_wallet_view_recipient = "Recipient";
 phrase lng_wallet_view_date = "Date";
 phrase lng_wallet_view_comment = "Comment";
-phrase lng_wallet_view_send_to_address = "Send Grams to this address";
-phrase lng_wallet_view_send_to_recipient = "Send Grams to this Recipient";
+phrase lng_wallet_view_send_to_address = "Send TON coins to this address";
+phrase lng_wallet_view_send_to_recipient = "Send TON coins to this Recipient";
 
-phrase lng_wallet_receive_title = "Receive Grams";
-phrase lng_wallet_receive_description = "Share this address with other Gram wallet owners to receive Grams from them.";
-phrase lng_wallet_receive_description_test = "Share this address to receive Test Grams. Note: this link won't work for real Grams.";
+phrase lng_wallet_receive_title = "Receive TON coins";
+phrase lng_wallet_receive_description = "Share this address with other TON wallet owners to receive TON coins from them.";
+phrase lng_wallet_receive_description_test = "Share this address to receive Test TON coins. Note: this link won't work for real TON coins.";
 phrase lng_wallet_receive_create_invoice = "Create Invoice";
 phrase lng_wallet_receive_share = "Share Wallet Address";
 phrase lng_wallet_receive_copied = "Transfer link copied to clipboard.";
@@ -119,13 +119,13 @@ phrase lng_wallet_receive_copied_qr = "QR Code copied to clipboard.";
 
 phrase lng_wallet_invoice_title = "Create Invoice";
 phrase lng_wallet_invoice_amount = "Amount";
-phrase lng_wallet_invoice_number = "Amount in grams you expect to receive";
+phrase lng_wallet_invoice_number = "Amount in TON coins you expect to receive";
 phrase lng_wallet_invoice_comment = "Comment (optional)";
 phrase lng_wallet_invoice_comment_about = "You can specify the amount and purpose of the payment to save the sender some time.";
 phrase lng_wallet_invoice_url = "Invoice URL";
 phrase lng_wallet_invoice_copy_url = "Copy Invoice URL";
-phrase lng_wallet_invoice_url_about = "Share this address with other Gram wallet owners to receive Grams from them.";
-phrase lng_wallet_invoice_url_about_test = "Share this address to receive Test Grams. Note: this link won't work for real Grams.";
+phrase lng_wallet_invoice_url_about = "Share this address with other TON wallet owners to receive TON coins from them.";
+phrase lng_wallet_invoice_url_about_test = "Share this address to receive Test TON coins. Note: this link won't work for real TON coins.";
 phrase lng_wallet_invoice_generate_qr = "Generate QR Code";
 phrase lng_wallet_invoice_share = "Share Invoice URL";
 phrase lng_wallet_invoice_qr_title = "Invoice QR";
@@ -140,17 +140,17 @@ phrase lng_wallet_menu_export = "Back up wallet";
 phrase lng_wallet_menu_delete = "Log Out";
 
 phrase lng_wallet_delete_title = "Log Out";
-phrase lng_wallet_delete_about = "This will disconnect the wallet from this app. You will be able to restore your wallet using **24 secret words** \xe2\x80\x93 or import another wallet.\n\nWallets are located in the decentralized TON Blockchain. If you want the wallet to be deleted simply transfer all the Grams from it and leave it empty.";
+phrase lng_wallet_delete_about = "This will disconnect the wallet from this app. You will be able to restore your wallet using **24 secret words** \xe2\x80\x93 or import another wallet.\n\nWallets are located in the decentralized TON Blockchain. If you want the wallet to be deleted simply transfer all the TON coins from it and leave it empty.";
 phrase lng_wallet_delete_disconnect = "Disconnect";
 
-phrase lng_wallet_send_title = "Send Grams";
+phrase lng_wallet_send_title = "Send TON coins";
 phrase lng_wallet_send_recipient = "Recipient wallet address";
 phrase lng_wallet_send_address = "Enter wallet address";
 phrase lng_wallet_send_about = "Copy the 48-letter wallet address of the recipient here or ask them to send you a ton:// link.";
 phrase lng_wallet_send_amount = "Amount";
 phrase lng_wallet_send_balance = "Balance: {amount}";
 phrase lng_wallet_send_comment = "Comment (optional)";
-phrase lng_wallet_send_button = "Send Grams";
+phrase lng_wallet_send_button = "Send TON coins";
 phrase lng_wallet_send_button_amount = "Send {grams}";
 
 phrase lng_wallet_send_failed_title = "Sending failed";
@@ -159,11 +159,11 @@ phrase lng_wallet_send_failed_text = "Could not perform the transaction. Please 
 phrase lng_wallet_confirm_title = "Confirmation";
 phrase lng_wallet_confirm_text = "Do you want to send **{grams}** to:";
 phrase lng_wallet_confirm_fee = "Fee: ~{grams}";
-phrase lng_wallet_confirm_send = "Send Grams";
+phrase lng_wallet_confirm_send = "Send TON coins";
 phrase lng_wallet_confirm_warning = "**Note:** your comment \xC2\xAB{comment}\xC2\xBB **will not be encrypted**.";
 
 phrase lng_wallet_same_address_title = "Warning";
-phrase lng_wallet_same_address_text = "Sending Grams from a wallet to the same wallet doesn't make sense, you will simply waste a portion of the value on blockchain fees.";
+phrase lng_wallet_same_address_text = "Sending TON coins from a wallet to the same wallet doesn't make sense, you will simply waste a portion of the value on blockchain fees.";
 phrase lng_wallet_same_address_proceed = "Proceed";
 
 phrase lng_wallet_passcode_title = "Password";
@@ -171,7 +171,7 @@ phrase lng_wallet_passcode_enter = "Enter your password";
 phrase lng_wallet_passcode_next = "Next";
 phrase lng_wallet_passcode_incorrect = "Incorrect password.";
 
-phrase lng_wallet_sending_title = "Sending Grams";
+phrase lng_wallet_sending_title = "Sending TON coins";
 phrase lng_wallet_sending_text = "Please wait a few seconds for your\ntransaction to be processed...";
 
 phrase lng_wallet_sent_title = "Done!";
@@ -198,8 +198,8 @@ phrase lng_wallet_settings_blockchain_name = "Blockchain ID";
 
 phrase lng_wallet_warning_reconnect = "If you proceed, you will need to reconnect your wallet using 24 secret words.";
 phrase lng_wallet_warning_blockchain_name = "Are you sure you want to change the blockchain ID? You don't need this unless you're testing your own TON network.";
-phrase lng_wallet_warning_to_testnet = "Are you sure you want to switch to the Test Gram network? It exists only for testing purposes.";
-phrase lng_wallet_warning_to_mainnet = "Are you sure you want to switch to the Main Gram network? Grams will have real value there.";
+phrase lng_wallet_warning_to_testnet = "Are you sure you want to switch to the Test TON network? It exists only for testing purposes.";
+phrase lng_wallet_warning_to_mainnet = "Are you sure you want to switch to the Main TON network? TON coins will have real value there.";
 phrase lng_wallet_bad_config = "Sorry, this config is invalid.";
 phrase lng_wallet_bad_config_url = "Could not load config from URL.";
 phrase lng_wallet_wait_pending = "Please wait until the current transaction is completed.";
@@ -270,13 +270,13 @@ Fn<phrase(QTime)> lng_wallet_short_time = [](QTime time) {
 };
 
 Fn<phrase(QString)> lng_wallet_grams_count = [](QString text) {
-	return text + ((text == "1") ? " Gram" : " Grams");
+	return text + ((text == "1") ? " TON coin" : " TON coins");
 };
 
 Fn<phrase(QString)> lng_wallet_grams_count_sent = [](QString text) {
 	return text + ((text == "1")
-		? " Gram has been sent."
-		: " Grams have been sent.");
+		? " TON coin has been sent."
+		: " TON coins have been sent.");
 };
 
 } // namespace ph
