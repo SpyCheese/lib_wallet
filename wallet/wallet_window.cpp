@@ -679,10 +679,10 @@ void Window::showConfigUpgrade(Ton::ConfigUpgrade upgrade) {
 			rpl::single(QString(message)),
 			ph::lng_wallet_ok());
 	} else if (upgrade == Ton::ConfigUpgrade::TestnetToMainnet) {
-		const auto message = "The Gram Wallet has switched "
+		const auto message = "The TON Wallet has switched "
 			"from the testing to the main network.\n\nIn case you want "
 			"to perform more testing you can switch back "
-			"to the Test Gram network in Settings "
+			"to the Test TON network in Settings "
 			"and reconnect your wallet using 24 secret words.";
 		showSimpleError(
 			ph::lng_wallet_warning(),
