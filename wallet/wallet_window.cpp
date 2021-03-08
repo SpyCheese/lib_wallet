@@ -672,18 +672,13 @@ bool Window::handleLinkOpen(const QString &link) {
 
 void Window::showConfigUpgrade(Ton::ConfigUpgrade upgrade) {
 	if (upgrade == Ton::ConfigUpgrade::TestnetToTestnet2) {
-		const auto message = "The TON test network has been reset.\n"
-			"TON testnet2 is now operational.";
+		const auto message = "The TON network has been reset.";
 		showSimpleError(
 			ph::lng_wallet_warning(),
 			rpl::single(QString(message)),
 			ph::lng_wallet_ok());
 	} else if (upgrade == Ton::ConfigUpgrade::TestnetToMainnet) {
-		const auto message = "The TON Wallet has switched "
-			"from the testing to the main network.\n\nIn case you want "
-			"to perform more testing you can switch back "
-			"to the Test TON network in Settings "
-			"and reconnect your wallet using 24 secret words.";
+		const auto message = "The TON Wallet has switched.";
 		showSimpleError(
 			ph::lng_wallet_warning(),
 			rpl::single(QString(message)),

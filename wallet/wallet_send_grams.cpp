@@ -189,7 +189,7 @@ void SendGramsBox(
 		case InvoiceField::Amount: amount->showError(); return;
 		case InvoiceField::Comment: comment->showError(); return;
 		}
-		Unexpected("Field value in SendGramsBox error callback.");
+		Unexpected("Field value in SendBox error callback.");
 	});
 	const auto submit = [=] {
 		auto collected = PreparedInvoice();
