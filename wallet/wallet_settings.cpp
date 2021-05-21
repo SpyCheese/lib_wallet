@@ -368,9 +368,7 @@ void SettingsBox(
 
 	const auto validate = [=] {
 		const auto updated = name->getLastText().trimmed();
-		if (updated.isEmpty()
-			|| (true// (net->value() == 1) // #TODO postponed
-				&& !updated.compare("mainnet", Qt::CaseInsensitive))) {
+		if (updated.isEmpty()) {
 			name->showError();
 			return false;
 		} else if (!custom->toggled()
