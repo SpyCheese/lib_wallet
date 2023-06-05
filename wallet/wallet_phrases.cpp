@@ -150,6 +150,7 @@ phrase lng_wallet_send_about = "Copy the 48-letter wallet address of the recipie
 phrase lng_wallet_send_amount = "Amount";
 phrase lng_wallet_send_balance = "Balance: {amount}";
 phrase lng_wallet_send_comment = "Comment (optional)";
+phrase lng_wallet_send_use_encryption = "Encrypt comment";
 phrase lng_wallet_send_button = "Send TON coins";
 phrase lng_wallet_send_button_amount = "Send {grams}";
 

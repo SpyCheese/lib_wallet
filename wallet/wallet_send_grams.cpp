@@ -125,6 +125,15 @@ void SendGramsBox(
 			prepared.comment)),
 		st::walletSendCommentPadding);
 
+  const auto useEncryptionOn = box->lifetime().make_state<rpl::variable<bool>>(false);
+  const auto useEncryption = box->addRow(
+      object_ptr<Ui::SettingsButton>(
+          box,
+          ph::lng_wallet_send_use_encryption(),
+          st::defaultSettingsButton),
+      QMargins()
+  )->toggleOn(useEncryptionOn->value());
+
 	const auto checkFunds = [=](const QString &amount) {
 		if (const auto value = ParseAmountString(amount)) {
 			const auto insufficient = (*value > std::max(*funds, 0LL));
@@ -201,7 +210,8 @@ void SendGramsBox(
 		collected.amount = *parsed;
 		collected.address = address->getLastText();
 		collected.comment = comment->getLastText();
-		done(collected, showError);
+    collected.sendUnencryptedText = !useEncryption->toggled();
+    done(collected, showError);
 	};
 
 	Ui::Connect(address, &Ui::InputField::submitted, [=] {
